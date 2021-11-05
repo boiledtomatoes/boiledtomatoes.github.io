@@ -3,19 +3,58 @@ theme: jekyll-theme-hacker
 title: boiledtomatoes
 description: game and watch 
 ---
-
+<html>
  <div>
     <nav>
       <a href="/">Home</a>
       <a href="/Youtube/">Youtube</a>
     </nav>
     <h1>boiledtomatoes</h1>
- </div>  
-  <section>
-     <button> Cookie Clicker </button>
-    </section>
-    <footer>
-      Games
-    </footer>
-  </body>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="/Youtube">Youtube</a></li>
+  <li><a href="#cookieclicker">Cookie Clicker</a></li>
+  <li style="float:right"><a href="/paper">Paper.io</a></li>
+</ul>
+
+</body>
 </html>
