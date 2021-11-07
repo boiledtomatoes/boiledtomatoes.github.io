@@ -1,8 +1,5 @@
 title: boiledtomatoes
-description: "Games for school (or home)"
-author:
-  name: "boiledtomatoes"
-  email: "imvoidbruh@outlook.com"
-  url: "https://boiledtomatoes.github.io/"
-
-baseurl: /
+description: Games for home and school.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
