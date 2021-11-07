@@ -1,5 +1,8 @@
-title: BoiledTomatoes
-description: Games at school (or home)
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
+title: boiledtomatoes
+description: "Games for school (or home)"
+author:
+  name: "boiledtomatoes"
+  email: "imvoidbruh@outlook.com"
+  url: "https://boiledtomatoes.github.io/"
+
+baseurl: /
